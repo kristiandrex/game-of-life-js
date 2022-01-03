@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+button {
+  cursor: pointer;
+  padding: 0.2rem;
+}
+
+button span {
+  vertical-align: middle;
+}
+
+#app {
+  background-color: #000;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+#app .buttons {
+  text-align: center;
+}
